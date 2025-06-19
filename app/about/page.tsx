@@ -424,26 +424,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-black text-white">
-        <div className="container mx-auto px-4 text-center">
-          <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-            <h2 className="text-4xl font-bold mb-4">STAY CONNECTED</h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join the Ferrari family and be the first to know about our latest innovations, events, and exclusive
-              experiences.
-            </p>
-            <div className="flex max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-6 py-4 rounded-l-lg text-black bg-white border-none focus:outline-none focus:ring-2 focus:ring-red-600"
-              />
-              <Button className="bg-red-600 hover:bg-red-700 px-8 rounded-l-none">SUBSCRIBE</Button>
-            </div>
-          </motion.div>
-        </div>
-      </section>
     </div>
   )
 }
